@@ -22,7 +22,7 @@ namespace MongoFunctionHTTP
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            const string connectionString = "mongodb://jlrmongodb:uo8lffJvu6bYAWF4kSIAeZnfsjXSGL0fqnqaoAtsPewFmH1r9VnkJje1YMShe2F9BLYSI2xikTsQzleykpkDGw==@jlrmongodb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            const string connectionString = "<connection string of mongodb>";
 
             // Create a MongoClient object by using the connection string
             var client = new MongoClient(connectionString);
